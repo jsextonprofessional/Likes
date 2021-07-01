@@ -1,13 +1,13 @@
 console.log("page loading...");
 
-var likes = [9, 12, 9];
-var spans = [
+var likes = [9, 12, 9]
+var please = [
     document.querySelector("#post1"),
     document.querySelector("#post2"),
     document.querySelector("#post3")
 ];
 
-function likes(id) {
+function like(id) {
     likes[id]++;
-    spans[id].innerText = likes[id] + "like(s)";
+    please[id].innerHTML = likes[id] + " Like(s)";
 }
