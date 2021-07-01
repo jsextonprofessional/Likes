@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px dotted hotpink;
+    font-family: sans-serif;
 }
+
 main {
     display: flex;
     padding: 40px;
@@ -12,24 +13,37 @@ main {
 .container {
     margin: 0 auto;
     min-height: 140px;
-    width: 60%;
-    background-color: yellow;
+    width: 40%;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 2px;
+    flex-direction: column;
 }
 
 .flexed {
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.top {
-    border: 3px solid red;
+.row {
     width: 100%;
+    min-height: 70px;
+    padding: 15px;
 }
-p {
-    9
+#top span {
+    margin-left: 40px;
+    padding-left: 30px;
 }
 
-#bottomtext {
-    border: 3px dotted greenyellow;
+button {
+    min-height: 30px;
+    width: 70px;
+    background-color: rgb(255, 213, 73);
+    border: 2px solid black;
+    box-shadow: black 4px 2px 2px 0;
+}
+
+#bottom p {
+    font-size: 20px;
 }
